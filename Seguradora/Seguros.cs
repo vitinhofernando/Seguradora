@@ -35,7 +35,7 @@ namespace Seguradora
 
         private void Seguros_Load(object sender, EventArgs e)
         {
-            
+           // lblUsuario.Text = "Usuario:" txtLogin.Text;
         }
 
         private void cadastrarClienteToolStripMenuItem_Click(object sender, EventArgs e)

@@ -39,6 +39,10 @@
             this.cadastroDeClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreOSitemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreOsDesenvolvedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +51,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem,
-            this.segurosToolStripMenuItem});
+            this.segurosToolStripMenuItem,
+            this.sobreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
@@ -97,7 +102,7 @@
             // cadastrarSegurosToolStripMenuItem
             // 
             this.cadastrarSegurosToolStripMenuItem.Name = "cadastrarSegurosToolStripMenuItem";
-            this.cadastrarSegurosToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
+            this.cadastrarSegurosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cadastrarSegurosToolStripMenuItem.Text = "Asegurar Carro";
             this.cadastrarSegurosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarSegurosToolStripMenuItem_Click);
             // 
@@ -128,11 +133,42 @@
             this.consultarClienteToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.consultarClienteToolStripMenuItem.Text = "Consultar Cliente";
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Location = new System.Drawing.Point(12, 40);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(51, 20);
+            this.lblUsuario.TabIndex = 2;
+            this.lblUsuario.Text = "_______";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreOSitemaToolStripMenuItem,
+            this.sobreOsDesenvolvedoresToolStripMenuItem});
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // sobreOSitemaToolStripMenuItem
+            // 
+            this.sobreOSitemaToolStripMenuItem.Name = "sobreOSitemaToolStripMenuItem";
+            this.sobreOSitemaToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.sobreOSitemaToolStripMenuItem.Text = "Sobre o Sitema";
+            // 
+            // sobreOsDesenvolvedoresToolStripMenuItem
+            // 
+            this.sobreOsDesenvolvedoresToolStripMenuItem.Name = "sobreOsDesenvolvedoresToolStripMenuItem";
+            this.sobreOsDesenvolvedoresToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.sobreOsDesenvolvedoresToolStripMenuItem.Text = "Sobre os Desenvolvedores";
+            // 
             // Seguros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Seguros";
@@ -159,5 +195,9 @@
         private ToolStripMenuItem consultarClienteToolStripMenuItem;
         private ToolStripMenuItem alterarClienteToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem1;
+        private Label lblUsuario;
+        private ToolStripMenuItem sobreToolStripMenuItem;
+        private ToolStripMenuItem sobreOSitemaToolStripMenuItem;
+        private ToolStripMenuItem sobreOsDesenvolvedoresToolStripMenuItem;
     }
 }

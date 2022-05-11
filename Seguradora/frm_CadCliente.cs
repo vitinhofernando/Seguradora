@@ -2,7 +2,6 @@ namespace Seguradora
 {
     public partial class frm_CadCliente : Form
     {
-        private object txtCep;
 
         public frm_CadCliente()
         {
