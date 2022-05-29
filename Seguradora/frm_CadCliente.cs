@@ -63,6 +63,15 @@ namespace Seguradora
                 txtCPF.Focus();
                 return false;
             }
+            else
+            {
+                bool valido = ValidaCPF.IsCpf(txtCPF.Text);
+                if (!valido)
+                  {
+                    MessageBox.Show("O CPF digitado não é valido !!", "ALERTA !!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return false;
+                  }
+            }
             if (cliente.Sexo.Equals(""))
             {
                 MessageBox.Show("O campo sexo está em braco !! \nEscolha uma opção !!","ALERTA !!",MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -115,6 +124,8 @@ namespace Seguradora
                 return false;
             }
 
+            
+
             return true;
         }
         private void salvar_cliente(Cliente cliente)
@@ -123,6 +134,11 @@ namespace Seguradora
         }
 
         private void txtCPF_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void frm_CadCliente_Load(object sender, EventArgs e)
         {
 
         }

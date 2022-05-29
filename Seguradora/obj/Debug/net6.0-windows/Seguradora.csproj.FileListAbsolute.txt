@@ -20,3 +20,17 @@ C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\S
 C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\Seguradora.frm_Login.resources
 C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\Seguradora.frm_SeguroCarro.resources
 C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\Seguradora.frm_AlterarCliente.resources
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\Seguradora.frm_Sobre.resources
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\EntityFramework6.Npgsql.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\obj\Debug\net6.0-windows\Seguradora.csproj.CopyComplete
+C:\Users\Valdomiro\source\repos\Seguradora\Seguradora\bin\Debug\net6.0-windows\CPFCNPJ.dll

@@ -69,6 +69,8 @@
             // 
             // txtNome
             // 
+            this.txtNome.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.txtNome.Location = new System.Drawing.Point(12, 58);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(498, 27);
@@ -313,10 +315,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frm_CadCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Cliente";
+            this.Load += new System.EventHandler(this.frm_CadCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.clienteBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

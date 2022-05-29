@@ -15,6 +15,7 @@ namespace Seguradora
         public Seguros()
         {
             InitializeComponent();
+            
            /* for (int x = 1; x < 10; x++)
             {
                 cbc_Cliente.Items.Add("Opção " + x.ToString());
@@ -53,6 +54,12 @@ namespace Seguradora
         {
             frm_AlterarCliente alterarCliente = new frm_AlterarCliente();
             alterarCliente.ShowDialog();
+        }
+
+        private void sobreOSitemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Sobre telasobre = new frm_Sobre();
+            telasobre.ShowDialog();
         }
     }
 }

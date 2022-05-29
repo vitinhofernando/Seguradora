@@ -57,7 +57,6 @@
             this.txtAnoCarro = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.txtPlacaCarro = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.txtChassiCarro = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -66,24 +65,26 @@
             this.checkBox_Incendio = new System.Windows.Forms.CheckBox();
             this.checkBox_Acidente = new System.Windows.Forms.CheckBox();
             this.checkBox_Total = new System.Windows.Forms.CheckBox();
-            this.panel_SegundoSegurado = new System.Windows.Forms.Panel();
             this.btn_CancelarSegundo = new System.Windows.Forms.Button();
             this.txtNome2 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.txtCPF2 = new System.Windows.Forms.TextBox();
             this.checkBox_Sim = new System.Windows.Forms.CheckBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.btnSalvarSeguros = new System.Windows.Forms.Button();
             this.btnCancelarSeguros = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.panel_SegundoSegurado.SuspendLayout();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panel_SegundoSegurado = new System.Windows.Forms.Panel();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.panel_SegundoSegurado.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // cbc_Carro
@@ -132,7 +133,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(358, 30);
+            this.label2.Location = new System.Drawing.Point(6, 23);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 20);
             this.label2.TabIndex = 2;
@@ -140,7 +141,7 @@
             // 
             // txtCPF
             // 
-            this.txtCPF.Location = new System.Drawing.Point(358, 53);
+            this.txtCPF.Location = new System.Drawing.Point(6, 46);
             this.txtCPF.Name = "txtCPF";
             this.txtCPF.Size = new System.Drawing.Size(188, 27);
             this.txtCPF.TabIndex = 3;
@@ -149,7 +150,7 @@
             // txtTelCelular
             // 
             this.txtTelCelular.Enabled = false;
-            this.txtTelCelular.Location = new System.Drawing.Point(6, 113);
+            this.txtTelCelular.Location = new System.Drawing.Point(560, 46);
             this.txtTelCelular.Name = "txtTelCelular";
             this.txtTelCelular.Size = new System.Drawing.Size(122, 27);
             this.txtTelCelular.TabIndex = 23;
@@ -159,7 +160,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(6, 90);
+            this.label10.Location = new System.Drawing.Point(560, 23);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(57, 20);
             this.label10.TabIndex = 34;
@@ -169,7 +170,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(428, 143);
+            this.label7.Location = new System.Drawing.Point(712, 83);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 20);
             this.label7.TabIndex = 33;
@@ -178,7 +179,7 @@
             // txtCEP
             // 
             this.txtCEP.Enabled = false;
-            this.txtCEP.Location = new System.Drawing.Point(428, 166);
+            this.txtCEP.Location = new System.Drawing.Point(712, 106);
             this.txtCEP.Name = "txtCEP";
             this.txtCEP.Size = new System.Drawing.Size(110, 27);
             this.txtCEP.TabIndex = 31;
@@ -187,7 +188,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(73, 143);
+            this.label6.Location = new System.Drawing.Point(445, 83);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 20);
             this.label6.TabIndex = 32;
@@ -196,16 +197,16 @@
             // txtCidade
             // 
             this.txtCidade.Enabled = false;
-            this.txtCidade.Location = new System.Drawing.Point(73, 166);
+            this.txtCidade.Location = new System.Drawing.Point(445, 106);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(172, 27);
+            this.txtCidade.Size = new System.Drawing.Size(135, 27);
             this.txtCidade.TabIndex = 30;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(251, 143);
+            this.label5.Location = new System.Drawing.Point(586, 83);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 20);
             this.label5.TabIndex = 28;
@@ -214,15 +215,15 @@
             // txtBairro
             // 
             this.txtBairro.Enabled = false;
-            this.txtBairro.Location = new System.Drawing.Point(251, 166);
+            this.txtBairro.Location = new System.Drawing.Point(586, 106);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(171, 27);
+            this.txtBairro.Size = new System.Drawing.Size(124, 27);
             this.txtBairro.TabIndex = 29;
             // 
             // txtNEndereco
             // 
             this.txtNEndereco.Enabled = false;
-            this.txtNEndereco.Location = new System.Drawing.Point(6, 166);
+            this.txtNEndereco.Location = new System.Drawing.Point(378, 106);
             this.txtNEndereco.Name = "txtNEndereco";
             this.txtNEndereco.Size = new System.Drawing.Size(61, 27);
             this.txtNEndereco.TabIndex = 27;
@@ -232,7 +233,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(6, 143);
+            this.label4.Location = new System.Drawing.Point(378, 83);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 20);
             this.label4.TabIndex = 25;
@@ -241,16 +242,16 @@
             // txtEndereco
             // 
             this.txtEndereco.Enabled = false;
-            this.txtEndereco.Location = new System.Drawing.Point(134, 113);
+            this.txtEndereco.Location = new System.Drawing.Point(6, 106);
             this.txtEndereco.Name = "txtEndereco";
-            this.txtEndereco.Size = new System.Drawing.Size(404, 27);
+            this.txtEndereco.Size = new System.Drawing.Size(365, 27);
             this.txtEndereco.TabIndex = 26;
             // 
             // label
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label.Location = new System.Drawing.Point(134, 90);
+            this.label.Location = new System.Drawing.Point(6, 83);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(73, 20);
             this.label.TabIndex = 24;
@@ -259,7 +260,7 @@
             // txtNome
             // 
             this.txtNome.Enabled = false;
-            this.txtNome.Location = new System.Drawing.Point(6, 53);
+            this.txtNome.Location = new System.Drawing.Point(203, 46);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(351, 27);
             this.txtNome.TabIndex = 22;
@@ -268,7 +269,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(6, 30);
+            this.label3.Location = new System.Drawing.Point(203, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 20);
             this.label3.TabIndex = 21;
@@ -347,7 +348,7 @@
             "Vermelho",
             "Vinho",
             "Violeta"});
-            this.cbc_CorCarro.Location = new System.Drawing.Point(15, 98);
+            this.cbc_CorCarro.Location = new System.Drawing.Point(512, 46);
             this.cbc_CorCarro.Name = "cbc_CorCarro";
             this.cbc_CorCarro.Size = new System.Drawing.Size(125, 28);
             this.cbc_CorCarro.TabIndex = 51;
@@ -356,7 +357,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label20.Location = new System.Drawing.Point(144, 129);
+            this.label20.Location = new System.Drawing.Point(352, 76);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(45, 20);
             this.label20.TabIndex = 50;
@@ -364,7 +365,7 @@
             // 
             // txtCRLV
             // 
-            this.txtCRLV.Location = new System.Drawing.Point(144, 152);
+            this.txtCRLV.Location = new System.Drawing.Point(352, 99);
             this.txtCRLV.Name = "txtCRLV";
             this.txtCRLV.Size = new System.Drawing.Size(125, 27);
             this.txtCRLV.TabIndex = 49;
@@ -373,7 +374,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(13, 129);
+            this.label19.Location = new System.Drawing.Point(221, 76);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(38, 20);
             this.label19.TabIndex = 48;
@@ -381,7 +382,7 @@
             // 
             // txtCRV
             // 
-            this.txtCRV.Location = new System.Drawing.Point(13, 152);
+            this.txtCRV.Location = new System.Drawing.Point(221, 99);
             this.txtCRV.Name = "txtCRV";
             this.txtCRV.Size = new System.Drawing.Size(125, 27);
             this.txtCRV.TabIndex = 47;
@@ -390,7 +391,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.Location = new System.Drawing.Point(304, 76);
+            this.label18.Location = new System.Drawing.Point(13, 76);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(45, 20);
             this.label18.TabIndex = 46;
@@ -398,7 +399,7 @@
             // 
             // txtValorCarro
             // 
-            this.txtValorCarro.Location = new System.Drawing.Point(304, 99);
+            this.txtValorCarro.Location = new System.Drawing.Point(13, 99);
             this.txtValorCarro.Name = "txtValorCarro";
             this.txtValorCarro.Size = new System.Drawing.Size(202, 27);
             this.txtValorCarro.TabIndex = 45;
@@ -408,7 +409,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(161, 76);
+            this.label17.Location = new System.Drawing.Point(643, 25);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(38, 20);
             this.label17.TabIndex = 44;
@@ -416,7 +417,7 @@
             // 
             // txtAnoCarro
             // 
-            this.txtAnoCarro.Location = new System.Drawing.Point(161, 99);
+            this.txtAnoCarro.Location = new System.Drawing.Point(643, 48);
             this.txtAnoCarro.Name = "txtAnoCarro";
             this.txtAnoCarro.Size = new System.Drawing.Size(125, 27);
             this.txtAnoCarro.TabIndex = 43;
@@ -437,16 +438,6 @@
             this.txtPlacaCarro.Name = "txtPlacaCarro";
             this.txtPlacaCarro.Size = new System.Drawing.Size(125, 27);
             this.txtPlacaCarro.TabIndex = 41;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(13, 101);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(33, 20);
-            this.label16.TabIndex = 40;
-            this.label16.Text = "Cor";
             // 
             // label15
             // 
@@ -528,19 +519,6 @@
             this.checkBox_Total.Text = "TOTAL";
             this.checkBox_Total.UseVisualStyleBackColor = true;
             // 
-            // panel_SegundoSegurado
-            // 
-            this.panel_SegundoSegurado.Controls.Add(this.btn_CancelarSegundo);
-            this.panel_SegundoSegurado.Controls.Add(this.txtNome2);
-            this.panel_SegundoSegurado.Controls.Add(this.label13);
-            this.panel_SegundoSegurado.Controls.Add(this.label12);
-            this.panel_SegundoSegurado.Controls.Add(this.txtCPF2);
-            this.panel_SegundoSegurado.Location = new System.Drawing.Point(13, 569);
-            this.panel_SegundoSegurado.Name = "panel_SegundoSegurado";
-            this.panel_SegundoSegurado.Size = new System.Drawing.Size(554, 102);
-            this.panel_SegundoSegurado.TabIndex = 47;
-            this.panel_SegundoSegurado.Visible = false;
-            // 
             // btn_CancelarSegundo
             // 
             this.btn_CancelarSegundo.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -592,7 +570,7 @@
             // checkBox_Sim
             // 
             this.checkBox_Sim.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.checkBox_Sim.Location = new System.Drawing.Point(19, 535);
+            this.checkBox_Sim.Location = new System.Drawing.Point(6, 26);
             this.checkBox_Sim.Name = "checkBox_Sim";
             this.checkBox_Sim.Size = new System.Drawing.Size(58, 24);
             this.checkBox_Sim.TabIndex = 47;
@@ -600,22 +578,13 @@
             this.checkBox_Sim.UseVisualStyleBackColor = true;
             this.checkBox_Sim.CheckedChanged += new System.EventHandler(this.checkBox_Sim_CheckedChanged);
             // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(13, 510);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(307, 20);
-            this.label11.TabIndex = 46;
-            this.label11.Text = "Segurar mais de uma pessoa a esse veiculo";
-            // 
             // btnSalvarSeguros
             // 
             this.btnSalvarSeguros.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSalvarSeguros.ForeColor = System.Drawing.Color.Green;
-            this.btnSalvarSeguros.Location = new System.Drawing.Point(434, 677);
+            this.btnSalvarSeguros.Location = new System.Drawing.Point(599, 585);
             this.btnSalvarSeguros.Name = "btnSalvarSeguros";
-            this.btnSalvarSeguros.Size = new System.Drawing.Size(124, 43);
+            this.btnSalvarSeguros.Size = new System.Drawing.Size(136, 49);
             this.btnSalvarSeguros.TabIndex = 47;
             this.btnSalvarSeguros.Text = "Salvar";
             this.btnSalvarSeguros.UseVisualStyleBackColor = true;
@@ -625,9 +594,9 @@
             // 
             this.btnCancelarSeguros.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCancelarSeguros.ForeColor = System.Drawing.Color.Red;
-            this.btnCancelarSeguros.Location = new System.Drawing.Point(448, 726);
+            this.btnCancelarSeguros.Location = new System.Drawing.Point(741, 591);
             this.btnCancelarSeguros.Name = "btnCancelarSeguros";
-            this.btnCancelarSeguros.Size = new System.Drawing.Size(94, 30);
+            this.btnCancelarSeguros.Size = new System.Drawing.Size(108, 43);
             this.btnCancelarSeguros.TabIndex = 48;
             this.btnCancelarSeguros.Text = "Cancelar";
             this.btnCancelarSeguros.UseVisualStyleBackColor = true;
@@ -642,7 +611,6 @@
             this.groupBox1.Controls.Add(this.txtChassiCarro);
             this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.txtCRLV);
             this.groupBox1.Controls.Add(this.txtPlacaCarro);
             this.groupBox1.Controls.Add(this.label14);
@@ -655,7 +623,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(555, 205);
+            this.groupBox1.Size = new System.Drawing.Size(841, 139);
             this.groupBox1.TabIndex = 52;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados do Carro";
@@ -664,7 +632,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(15, 76);
+            this.label8.Location = new System.Drawing.Point(512, 24);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(33, 20);
             this.label8.TabIndex = 52;
@@ -690,9 +658,9 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtBairro);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox2.Location = new System.Drawing.Point(12, 217);
+            this.groupBox2.Location = new System.Drawing.Point(13, 157);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(555, 219);
+            this.groupBox2.Size = new System.Drawing.Size(840, 152);
             this.groupBox2.TabIndex = 53;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dados do Cliente";
@@ -705,39 +673,76 @@
             this.groupBox3.Controls.Add(this.checkBox_Total);
             this.groupBox3.Controls.Add(this.checkBox_Acidente);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.groupBox3.Location = new System.Drawing.Point(12, 431);
+            this.groupBox3.Location = new System.Drawing.Point(13, 331);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(555, 76);
             this.groupBox3.TabIndex = 54;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tipos de Seguros";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox4.Location = new System.Drawing.Point(599, 344);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(250, 235);
+            this.groupBox4.TabIndex = 55;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Tempo de Contrato";
+            // 
+            // panel_SegundoSegurado
+            // 
+            this.panel_SegundoSegurado.Controls.Add(this.btn_CancelarSegundo);
+            this.panel_SegundoSegurado.Controls.Add(this.txtNome2);
+            this.panel_SegundoSegurado.Controls.Add(this.label13);
+            this.panel_SegundoSegurado.Controls.Add(this.label12);
+            this.panel_SegundoSegurado.Controls.Add(this.txtCPF2);
+            this.panel_SegundoSegurado.Location = new System.Drawing.Point(8, 56);
+            this.panel_SegundoSegurado.Name = "panel_SegundoSegurado";
+            this.panel_SegundoSegurado.Size = new System.Drawing.Size(554, 102);
+            this.panel_SegundoSegurado.TabIndex = 47;
+            this.panel_SegundoSegurado.Visible = false;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.checkBox_Sim);
+            this.groupBox5.Controls.Add(this.panel_SegundoSegurado);
+            this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.groupBox5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.groupBox5.Location = new System.Drawing.Point(13, 413);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(582, 166);
+            this.groupBox5.TabIndex = 56;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Segurar mais de uma pessoa a esse veiculo";
+            // 
             // frm_SeguroCarro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 761);
+            this.ClientSize = new System.Drawing.Size(865, 638);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.panel_SegundoSegurado);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.checkBox_Sim);
             this.Controls.Add(this.btnCancelarSeguros);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnSalvarSeguros);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frm_SeguroCarro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_SeguroCarro";
             this.Load += new System.EventHandler(this.frm_SeguroCarro_Load);
-            this.panel_SegundoSegurado.ResumeLayout(false);
-            this.panel_SegundoSegurado.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panel_SegundoSegurado.ResumeLayout(false);
+            this.panel_SegundoSegurado.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -772,11 +777,8 @@
         private TextBox txtCPF2;
         private Label label13;
         private TextBox txtNome2;
-        private Label label11;
         private CheckBox checkBox_Sim;
-        private Panel panel_SegundoSegurado;
         private Button btn_CancelarSegundo;
-        private Label label16;
         private Label label15;
         private TextBox txtChassiCarro;
         private Label label18;
@@ -796,5 +798,8 @@
         private GroupBox groupBox2;
         private GroupBox groupBox3;
         private Label label8;
+        private GroupBox groupBox4;
+        private Panel panel_SegundoSegurado;
+        private GroupBox groupBox5;
     }
 }
