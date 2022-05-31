@@ -52,7 +52,7 @@ namespace Seguradora
 
         private void btnSalvarSeguros_Click(object sender, EventArgs e)
         {
-            Seguro seguro = Recuperar_Informacao_Tela_Seguro();
+             Seguro seguro = Recuperar_Informacao_Tela_Seguro();
             //validar cliente
             bool v = validar_seguro(seguro);
             if (v)
@@ -65,6 +65,8 @@ namespace Seguradora
                 //nao salvar e mandar mensagem
 
             }
+            Conclusao conclusao = new Conclusao();
+            conclusao.ShowDialog();
         }
 
 

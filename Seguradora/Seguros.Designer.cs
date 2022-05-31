@@ -43,12 +43,9 @@
             this.cadastroDeClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Data = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,7 +105,7 @@
             // cadastrarSegurosToolStripMenuItem
             // 
             this.cadastrarSegurosToolStripMenuItem.Name = "cadastrarSegurosToolStripMenuItem";
-            this.cadastrarSegurosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cadastrarSegurosToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
             this.cadastrarSegurosToolStripMenuItem.Text = "Asegurar Carro";
             this.cadastrarSegurosToolStripMenuItem.Click += new System.EventHandler(this.cadastrarSegurosToolStripMenuItem_Click);
             // 
@@ -161,16 +158,6 @@
             this.consultarClienteToolStripMenuItem.Size = new System.Drawing.Size(222, 26);
             this.consultarClienteToolStripMenuItem.Text = "Consultar Cliente";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 84);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 114);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
@@ -190,24 +177,13 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Todos os direitos reservados a ElephantSeguros ©";
             // 
-            // Data
-            // 
-            this.Data.AutoSize = true;
-            this.Data.Location = new System.Drawing.Point(12, 28);
-            this.Data.Name = "Data";
-            this.Data.Size = new System.Drawing.Size(50, 20);
-            this.Data.TabIndex = 6;
-            this.Data.Text = "label2";
-            // 
             // Seguros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1924, 1055);
-            this.Controls.Add(this.Data);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Seguros";
@@ -216,7 +192,6 @@
             this.Load += new System.EventHandler(this.Seguros_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -239,9 +214,7 @@
         private ToolStripMenuItem sobreToolStripMenuItem;
         private ToolStripMenuItem sobreOSitemaToolStripMenuItem;
         private ToolStripMenuItem sobreOsDesenvolvedoresToolStripMenuItem;
-        private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label label1;
-        private Label Data;
     }
 }
